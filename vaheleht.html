@@ -38,7 +38,17 @@
 	        <li></li>
 	        <li></li>
 	     	</ol>
-			<p>Allikas: https://en.wikipedia.org/wiki/Civilization_(series)</p>
+	        <button onclick="myFunction()">Allikas</button>
+
+	        <p id="demo"></p>
+
+	        <script>
+	        function myFunction() {
+	            var str = "https://en.wikipedia.org/wiki/Civilization_(series)";
+	            var result = str.link("https://en.wikipedia.org/wiki/Civilization_(series)");
+	            document.getElementById("demo").innerHTML = result;
+	          }
+	        </script>
 
 
 	</body>

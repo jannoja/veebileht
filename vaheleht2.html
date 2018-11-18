@@ -14,6 +14,16 @@
         <li></li>
         <li></li>
       	</ol>
-      	<p>Video allikas: https://www.youtube.com/watch?v=oj2t97U7pfs</p>
+        <button onclick="myFunction()">Video allikas</button>
+
+        <p id="demo"></p>
+
+        <script>
+        function myFunction() {
+            var str = "https://www.youtube.com/watch?v=oj2t97U7pfs";
+            var result = str.link("https://www.youtube.com/watch?v=oj2t97U7pfs");
+            document.getElementById("demo").innerHTML = result;
+          }
+        </script>
 	</body>
 </html>

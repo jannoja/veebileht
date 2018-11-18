@@ -15,7 +15,18 @@
                 loovad paljusid inimkonna suurimaid imesid. Ehita, kauple, avasta ja vii oma rahvas võiduni! Lõpuks
                 tõuseb üks rahvas üle kõigi teiste, et jätta oma märk ajalukku. </p>
 
-          <p>Pildi allikas: http://www.megabearsfan.net/image.axd/2017/11/CivANewDawn-prerelease_1.jpg</p>
+
+          <button onclick="myFunction()">Pildi allikas</button>
+
+          <p id="demo"></p>
+
+          <script>
+          function myFunction() {
+              var str = "http://www.megabearsfan.net/image.axd/2017/11/CivANewDawn-prerelease_1.jpg";
+              var result = str.link("http://www.megabearsfan.net/image.axd/2017/11/CivANewDawn-prerelease_1.jpg");
+              document.getElementById("demo").innerHTML = result;
+          }
+          </script>
 
     </body>
 </html>
