@@ -1,12 +1,45 @@
 h1{
-	color: white; font-size: 30px; font-family: Arial;
+	color: white;
+	font-size: 30px; 
+	font-family: Arial;
 }
 p{
-	font-family: Arial; color: white;
+	font-family: Arial; 
+	color: white; 
+	font-size: 16px;
 }
 .lingid{
-	color: #443B7D; font-size: 16px; font-family: Comic Sans MS;
+	color: #443B7D; 
+	font-size: 16px; 
+	font-family: Comic Sans MS;
 }
 body{
 	background-image: url("peataust.jpg");
+}
+h2{
+	color: white; 
+	font-size: 25px; 
+	font-family: Arial;
+}
+h3{
+	color: white; 
+	font-size: 20px; 
+	font-family: Arial;
+}
+ul{
+	color: white; 
+	font-size: 16px; 
+	font-family: Arial;
+}
+.valitud{
+	color: #443B7D; 
+	font-size: 16px; 
+	font-family: Comic Sans MS; 
+	text-transform: uppercase;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
