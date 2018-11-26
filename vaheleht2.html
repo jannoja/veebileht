@@ -1,13 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang=en>
+<head>
 <link rel="stylesheet" type="text/css" href="styleindex.css">
+<title>Sid Meier's Civilization: A New Dawn</title>
+</head>
+<body>
 <div>
   <a class="lingid" href="index.html">Pealeht</a>
   <a class="lingid" href="vaheleht.html">Mängudest</a>
   <a class="valitud" href="vaheleht2.html">Mängu õpetus</a>
 </div>
-	<body>
+	
 		<h1>Sid Meier's Civilization: A New Dawn</h1>
-		<iframe width="720" height="480" src="https://www.youtube.com/embed/oj2t97U7pfs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="720" height="480" src="https://www.youtube.com/embed/oj2t97U7pfs" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<ol>
         <li></li>
         <li></li>
@@ -16,13 +21,13 @@
       	</ol>
         <button onclick="myFunction()">Video allikas</button>
 
-        <p id="demo"></p>
+        <p id="Video"></p>
 
         <script>
         function myFunction() {
             var str = "https://www.youtube.com/watch?v=oj2t97U7pfs";
             var result = str.link("https://www.youtube.com/watch?v=oj2t97U7pfs");
-            document.getElementById("demo").innerHTML = result;
+            document.getElementById("Video").innerHTML = result;
           }
         </script>
 	</body>
